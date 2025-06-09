@@ -1,0 +1,16 @@
+Test Case ID	Module	Test Scenario	Test Steps	Expected Result
+TC001	Login	Valid login	Enter valid username and password → click login	User successfully logged in
+TC002	Login	Invalid login	Enter wrong password → click login	Error message displayed
+TC003	Navigation	All menu links work	Click on all navbar links	Each link navigates to correct page
+TC004	Search	Search with valid keyword	Enter keyword in search → click search	Relevant results displayed
+TC005	Search	Search with blank input	Leave search bar empty → click search	Validation/error message shown
+TC006	Form	Submit form with valid input	Fill all fields → click submit	Form is submitted successfully
+TC007	Form	Submit form with missing required fields	Leave some required fields empty → click submit	Validation errors shown
+TC008	UI	Check responsiveness on different screen sizes	Resize browser window	Layout adjusts without breaking
+TC009	Error Handling	Invalid URL handling	Manually enter incorrect URL in browser	App shows 404 or redirect to error page
+TC010	Logout	Successful logout	Click logout button	User redirected to login page
+TC011	Session	Session expiry after timeout	Login → wait 30 min idle → click profile	User asked to re-login
+TC012	Registration	Duplicate email registration	Register using an already registered email	Error: email already exists
+TC013	Accessibility	Image alt text present	Hover or inspect image elements	All images have meaningful alt text
+TC014	Input Validation	Special characters in input fields	Input !@#% into name/email fields → submit	App rejects or sanitizes input
+TC015	Load Performance	Page load time under 3 seconds	Load homepage and measure using browser dev tools	Loads within 3 seconds
